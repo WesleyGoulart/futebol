@@ -1,8 +1,12 @@
 Seu programa deve ler o arquivo resultados e o arquivo cartoes.
 
-Ele deve calcular o número de vitórias, empates, derrotas, gols marcados, gols sofridos, saldo de gols, números de cartões no seguinte formato:
+Ele deve calcular o número de vitórias, empates, derrotas, 
+gols marcados, gols sofridos, saldo de gols, números de cartões
+ no seguinte formato:
+
 
    V   E   D  GP  GC  SG   C
   10   1   3  10   5   5   3
 
-  Atente-se para o espaçamento entre os campos. Ele deve ser impresso exatamente nesse formato
+  Atente-se para o espaçamento entre os campos. Ele deve ser 
+  impresso exatamente nesse formato

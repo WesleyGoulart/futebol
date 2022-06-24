@@ -3,14 +3,18 @@ const fs = require('fs');
 try {
   const data = fs.readFileSync('./cartoes', 'utf8');
   const linhas = data.split(/\r?\n/);
-  console.log(linhas);
 
   // Iterar array e fazer loop para somar
   let i = 0
+  let soma = 0
   while (i < linhas.length) {
-    console.log(linhas[i])
+    if (linhas[i] != '') {
+      // Dentro desse if, temos só os números
+      soma = soma + Number(linhas[i])
+    }
     i = i + 1
   }
+  console.log(soma)
 
 
 } catch (err) {
